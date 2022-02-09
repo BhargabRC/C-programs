@@ -11,15 +11,15 @@ int main()
     double avg = (((double)sum / 500) * 100);
     printf("avg=%f\n", avg);
         if (avg >= 85 && avg <= 100) 
-        printf("%.2f%%: Grade A\n", avg);
+        printf("%.2f : Grade A\n", avg);
         else if (avg >= 70 && avg <= 84) 
-        printf("%.2f%% Grade B\n", avg);
+        printf("%.2f : Grade B\n", avg);
         else if (avg >= 55 && avg <= 69) 
-        printf("%.2f%% Grade C\n", avg);
+        printf("%.2f : Grade C\n", avg);
         else if (avg >= 40 && avg <= 54) 
-        printf("%.2f%% Grade D\n", avg);
+        printf("%.2f : Grade D\n", avg);
         else
-        printf("%.2f%% Grade F\n", avg);
+        printf("%.2f : Grade F\n", avg);
         
     
     return 0;
